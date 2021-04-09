@@ -41,6 +41,7 @@ body {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .dropdown{
@@ -123,12 +124,14 @@ body {
     font-weight: 500;
     text-align: center;
 }
+/*add cursor: pointer to nav bar and anything with link */
 
 .section-center{
     color: #fff;
     max-width: 500px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 3%;
     font-size: 20px;
     line-height: 1.4;
     font-weight: 500;
@@ -136,15 +139,72 @@ body {
 }
 
 .orange_kast_btn{
-    margin-right: auto;
-    margin-left: auto;
-    min-width: 215px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 120px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 200px;
     padding: 0px 16px;
     background-color: #fe9000;
     color: #fff;
     font-size: 18px;
+    line-height: 44px;
     font-weight: 700;
     text-align: center;
     cursor: pointer;
 
+}
+
+.featured_section{
+    display: block;
+    background-color: #fff;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.heading{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: #434146;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container-white{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+
+.grid{
+    display: grid;
+    grid-auto-columns: 1fr;
+    max-width: 880px;
+    margin-right: auto;
+    margin-bottom: 75px;
+    margin-left: auto;
+    -webkit-box-align: center;
+    align-items: center;
+    grid-column-gap: 140px;
+    grid-row-gap: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+
+.quote{
+    display: block;
+    max-width: 850px;
+    padding-left: 30px;
+    margin: 50px;   
+    text-align: center;
+}
+
+.quote-text{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
 }
